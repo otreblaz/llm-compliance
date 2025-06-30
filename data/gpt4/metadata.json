@@ -1,0 +1,27 @@
+{
+  "model_id": "gpt4",
+  "name": "GPT-4",
+  "version": "v1.0",
+  "provider": "OpenAI",
+  "release_date": "2023-03-14 00:00:00",
+  "model_type": "generative",
+  "access_type": "api_only",
+  "description": "Modelo de lenguaje grande generativo con capacidades avanzadas de razonamiento y comprensión",
+  "training_data_description": "Entrenado con datos públicos de internet hasta septiembre de 2021",
+  "parameters_count": 1500000000000,
+  "context_window": 8192,
+  "environmental_impact": {
+    "carbon_emissions_training": "Información no publicada",
+    "energy_consumption": "Información no publicada"
+  },
+  "documentation_url": "https://openai.com/gpt-4",
+  "papers_url": [
+    "https://arxiv.org/abs/2303.08774"
+  ],
+  "additional_metadata": {
+    "fine_tuning_available": false,
+    "moderation_system": true,
+    "content_filtering": true,
+    "known_limitations": "Puede generar información incorrecta, alucinaciones, o respuestas sesgadas"
+  }
+}

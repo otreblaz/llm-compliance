@@ -1,0 +1,44 @@
+[
+  {
+    "question": "¿Quién autorizó el desarrollo de este modelo?",
+    "response": "El desarrollo de Llama 2 fue autorizado por Meta AI y su equipo directivo, con supervisión de investigadores con experiencia en modelos de lenguaje de gran escala y aprendizaje profundo.",
+    "category": "Legitimidad y competencia",
+    "timestamp": "2025-04-18 11:43:27.210242"
+  },
+  {
+    "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+    "response": "Sí, Meta realizó evaluaciones éticas y legales completas, documentadas en el paper 'Llama 2: Open Foundation and Fine-Tuned Chat Models'. El modelo se sometió a evaluaciones de seguridad, pruebas adversariales y análisis de riesgos antes de su liberación.",
+    "category": "Legitimidad y competencia",
+    "timestamp": "2025-04-18 11:43:27.210248"
+  },
+  {
+    "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+    "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+    "category": "Minimización de daños",
+    "timestamp": "2025-04-18 11:43:27.210252"
+  },
+  {
+    "question": "¿Se realizan evaluaciones de impacto regularmente?",
+    "response": "Meta indica que realizó evaluaciones de impacto antes del lanzamiento, pero la información sobre evaluaciones continuas posteriores al despliegue es limitada debido a su naturaleza de código abierto y a que el mantenimiento depende tanto de Meta como de la comunidad.",
+    "category": "Minimización de daños",
+    "timestamp": "2025-04-18 11:43:27.210256"
+  },
+  {
+    "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+    "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+    "category": "Transparencia",
+    "timestamp": "2025-04-18 11:43:27.210260"
+  },
+  {
+    "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+    "response": "Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pesos del modelo están disponibles para descarga y análisis, permitiendo a terceros auditarlo y validar su funcionamiento.",
+    "category": "Transparencia",
+    "timestamp": "2025-04-18 11:43:27.210265"
+  },
+  {
+    "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+    "response": "Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2, mencionando en su documentación que utilizaron aproximadamente 1,015 MWh de electricidad. Sin embargo, no hay un desglose detallado o estimaciones de emisiones de carbono.",
+    "category": "Limitación de impactos ambientales",
+    "timestamp": "2025-04-18 11:43:27.210269"
+  }
+]

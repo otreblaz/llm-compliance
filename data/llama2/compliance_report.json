@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "model_id": "llama2",
+    "name": "Llama 2",
+    "version": "70B",
+    "provider": "Meta",
+    "release_date": "2023-07-18 00:00:00",
+    "model_type": "generative",
+    "access_type": "open_source",
+    "description": "Modelo de lenguaje grande optimizado para diálogo y con licencia abierta para investigación y uso comercial",
+    "training_data_description": "Entrenado con datos disponibles públicamente y filtrados para mayor seguridad",
+    "parameters_count": 70000000000,
+    "context_window": 4096,
+    "environmental_impact": {
+      "carbon_emissions_training": "Información proporcionada en la documentación",
+      "energy_consumption": "1,015 MWh"
+    },
+    "documentation_url": "https://ai.meta.com/llama/",
+    "papers_url": [
+      "https://arxiv.org/abs/2307.09288"
+    ],
+    "additional_metadata": {
+      "fine_tuning_available": true,
+      "moderation_system": false,
+      "content_filtering": true,
+      "license": "Llama 2 Community License",
+      "known_limitations": "Puede mostrar sesgos o generar contenido inexacto"
+    }
+  },
+  "evaluations": [
+    {
+      "principle_id": 1,
+      "principle_name": "Legitimidad y competencia",
+      "compliance_level": "compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, Meta realizó evaluaciones éticas y legales completas, documentadas en el paper 'Llama 2: Open Fo..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Quién autorizó el desarrollo de este modelo?",
+          "response": "El desarrollo de Llama 2 fue autorizado por Meta AI y su equipo directivo, con supervisión de investigadores con experiencia en modelos de lenguaje de gran escala y aprendizaje profundo.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210242"
+        },
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, Meta realizó evaluaciones éticas y legales completas, documentadas en el paper 'Llama 2: Open Foundation and Fine-Tuned Chat Models'. El modelo se sometió a evaluaciones de seguridad, pruebas adversariales y análisis de riesgos antes de su liberación.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210248"
+        }
+      ],
+      "recommendations": [],
+      "notes": null
+    },
+    {
+      "principle_id": 2,
+      "principle_name": "Minimización de daños",
+      "compliance_level": "non_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Meta indica que realizó evaluaciones de impacto antes del lanzamiento, pero la información sobre evaluaciones continuas posteriores al despliegue es limitada debido a su naturaleza de código abierto y a que el mantenimiento depende tanto de Meta como de la comunidad.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210256"
+        }
+      ],
+      "recommendations": [
+        "Implementar medidas para cumplir con Minimización de daños"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 3,
+      "principle_name": "Seguridad y privacidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos...",
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Seguridad y privacidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 4,
+      "principle_name": "Transparencia",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta positiva: Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pes..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pesos del modelo están disponibles para descarga y análisis, permitiendo a terceros auditarlo y validar su funcionamiento.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210265"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Transparencia"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 5,
+      "principle_name": "Interpretabilidad y explicabilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos...",
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Meta indica que realizó evaluaciones de impacto antes del lanzamiento, pero la información sobre evaluaciones continuas posteriores al despliegue es limitada debido a su naturaleza de código abierto y a que el mantenimiento depende tanto de Meta como de la comunidad.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210256"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Interpretabilidad y explicabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 6,
+      "principle_name": "Mantenibilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos...",
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta positiva: Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pes...",
+        "Respuesta negativa: Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2,..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pesos del modelo están disponibles para descarga y análisis, permitiendo a terceros auditarlo y validar su funcionamiento.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210265"
+        },
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2, mencionando en su documentación que utilizaron aproximadamente 1,015 MWh de electricidad. Sin embargo, no hay un desglose detallado o estimaciones de emisiones de carbono.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210269"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Mantenibilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 7,
+      "principle_name": "Contestabilidad y auditabilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos...",
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Contestabilidad y auditabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 8,
+      "principle_name": "Responsabilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, Meta realizó evaluaciones éticas y legales completas, documentadas en el paper 'Llama 2: Open Fo...",
+        "Respuesta negativa: Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos...",
+        "Respuesta positiva: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta negativa: Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrena...",
+        "Respuesta positiva: Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pes...",
+        "Respuesta negativa: Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2,..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Quién autorizó el desarrollo de este modelo?",
+          "response": "El desarrollo de Llama 2 fue autorizado por Meta AI y su equipo directivo, con supervisión de investigadores con experiencia en modelos de lenguaje de gran escala y aprendizaje profundo.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210242"
+        },
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, Meta realizó evaluaciones éticas y legales completas, documentadas en el paper 'Llama 2: Open Foundation and Fine-Tuned Chat Models'. El modelo se sometió a evaluaciones de seguridad, pruebas adversariales y análisis de riesgos antes de su liberación.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210248"
+        },
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Meta implementó un proceso de refinamiento iterativo que incluye anotación humana, filtrado de datos tóxicos, y optimización supervisada para identificar y reducir sesgos. Mantienen equipos de red team para evaluar constantemente el modelo.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210252"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Meta indica que realizó evaluaciones de impacto antes del lanzamiento, pero la información sobre evaluaciones continuas posteriores al despliegue es limitada debido a su naturaleza de código abierto y a que el mantenimiento depende tanto de Meta como de la comunidad.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210256"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "Sí, Meta ha publicado documentación detallada y un paper técnico que describe los métodos de entrenamiento y tipos de datos utilizados. Sin embargo, no se proporcionan listas exhaustivas de todas las fuentes de datos específicas.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210260"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "Sí, al ser un modelo de código abierto, Llama 2 permite verificación independiente completa. Los pesos del modelo están disponibles para descarga y análisis, permitiendo a terceros auditarlo y validar su funcionamiento.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210265"
+        },
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2, mencionando en su documentación que utilizaron aproximadamente 1,015 MWh de electricidad. Sin embargo, no hay un desglose detallado o estimaciones de emisiones de carbono.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210269"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Responsabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 9,
+      "principle_name": "Limitación de impactos ambientales",
+      "compliance_level": "non_compliant",
+      "evidence": [
+        "Respuesta negativa: Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2,..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "Meta ha proporcionado información limitada sobre el consumo energético del entrenamiento de Llama 2, mencionando en su documentación que utilizaron aproximadamente 1,015 MWh de electricidad. Sin embargo, no hay un desglose detallado o estimaciones de emisiones de carbono.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210269"
+        }
+      ],
+      "recommendations": [
+        "Implementar medidas para cumplir con Limitación de impactos ambientales"
+      ],
+      "notes": null
+    }
+  ],
+  "overall_compliance": "non_compliant",
+  "evaluation_date": "2025-04-18 11:43:27.639369",
+  "evaluator": null,
+  "summary": "El modelo cumple completamente con 1 principios, parcialmente con 6 principios, no cumple con 2 principios, y 0 principios no pudieron ser evaluados."
+}

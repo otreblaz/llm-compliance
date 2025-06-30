@@ -1,0 +1,28 @@
+{
+  "model_id": "llama2",
+  "name": "Llama 2",
+  "version": "70B",
+  "provider": "Meta",
+  "release_date": "2023-07-18 00:00:00",
+  "model_type": "generative",
+  "access_type": "open_source",
+  "description": "Modelo de lenguaje grande optimizado para diálogo y con licencia abierta para investigación y uso comercial",
+  "training_data_description": "Entrenado con datos disponibles públicamente y filtrados para mayor seguridad",
+  "parameters_count": 70000000000,
+  "context_window": 4096,
+  "environmental_impact": {
+    "carbon_emissions_training": "Información proporcionada en la documentación",
+    "energy_consumption": "1,015 MWh"
+  },
+  "documentation_url": "https://ai.meta.com/llama/",
+  "papers_url": [
+    "https://arxiv.org/abs/2307.09288"
+  ],
+  "additional_metadata": {
+    "fine_tuning_available": true,
+    "moderation_system": false,
+    "content_filtering": true,
+    "license": "Llama 2 Community License",
+    "known_limitations": "Puede mostrar sesgos o generar contenido inexacto"
+  }
+}

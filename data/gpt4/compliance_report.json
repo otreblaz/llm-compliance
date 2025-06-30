@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "model_id": "gpt4",
+    "name": "GPT-4",
+    "version": "v1.0",
+    "provider": "OpenAI",
+    "release_date": "2023-03-14 00:00:00",
+    "model_type": "generative",
+    "access_type": "api_only",
+    "description": "Modelo de lenguaje grande generativo con capacidades avanzadas de razonamiento y comprensión",
+    "training_data_description": "Entrenado con datos públicos de internet hasta septiembre de 2021",
+    "parameters_count": 1500000000000,
+    "context_window": 8192,
+    "environmental_impact": {
+      "carbon_emissions_training": "Información no publicada",
+      "energy_consumption": "Información no publicada"
+    },
+    "documentation_url": "https://openai.com/gpt-4",
+    "papers_url": [
+      "https://arxiv.org/abs/2303.08774"
+    ],
+    "additional_metadata": {
+      "fine_tuning_available": false,
+      "moderation_system": true,
+      "content_filtering": true,
+      "known_limitations": "Puede generar información incorrecta, alucinaciones, o respuestas sesgadas"
+    }
+  },
+  "evaluations": [
+    {
+      "principle_id": 1,
+      "principle_name": "Legitimidad y competencia",
+      "compliance_level": "compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluacio..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Quién autorizó el desarrollo de este modelo?",
+          "response": "El desarrollo de GPT-4 fue autorizado por la junta directiva de OpenAI y supervisado por un equipo de investigadores líderes en IA con amplia experiencia en modelos de lenguaje grandes.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210072"
+        },
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluaciones de riesgo, análisis de sesgos, y pruebas de seguridad con usuarios alfa y beta.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210081"
+        }
+      ],
+      "recommendations": [],
+      "notes": null
+    },
+    {
+      "principle_id": 2,
+      "principle_name": "Minimización de daños",
+      "compliance_level": "compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y ali..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Los sesgos se identifican mediante evaluaciones sistemáticas en múltiples dimensiones como género, raza, religión y política. Se mitigan a través de técnicas RLHF (aprendizaje por refuerzo con retroalimentación humana) y sistemas de filtrado de contenido inapropiado.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210086"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210090"
+        }
+      ],
+      "recommendations": [],
+      "notes": null
+    },
+    {
+      "principle_id": 3,
+      "principle_name": "Seguridad y privacidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y ali...",
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta...",
+        "Respuesta negativa: La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Los sesgos se identifican mediante evaluaciones sistemáticas en múltiples dimensiones como género, raza, religión y política. Se mitigan a través de técnicas RLHF (aprendizaje por refuerzo con retroalimentación humana) y sistemas de filtrado de contenido inapropiado.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210086"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210090"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210100"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Seguridad y privacidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 4,
+      "principle_name": "Transparencia",
+      "compliance_level": "non_compliant",
+      "evidence": [
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta...",
+        "Respuesta negativa: La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210100"
+        }
+      ],
+      "recommendations": [
+        "Implementar medidas para cumplir con Transparencia"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 5,
+      "principle_name": "Interpretabilidad y explicabilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluacio...",
+        "Respuesta positiva: Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y ali...",
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta...",
+        "Respuesta negativa: La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no...",
+        "Respuesta negativa: No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbo..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluaciones de riesgo, análisis de sesgos, y pruebas de seguridad con usuarios alfa y beta.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210081"
+        },
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Los sesgos se identifican mediante evaluaciones sistemáticas en múltiples dimensiones como género, raza, religión y política. Se mitigan a través de técnicas RLHF (aprendizaje por refuerzo con retroalimentación humana) y sistemas de filtrado de contenido inapropiado.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210086"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210090"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210100"
+        },
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbono asociadas con el entrenamiento o la operación de GPT-4.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210105"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Interpretabilidad y explicabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 6,
+      "principle_name": "Mantenibilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluacio...",
+        "Respuesta positiva: Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y ali...",
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta...",
+        "Respuesta negativa: La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluaciones de riesgo, análisis de sesgos, y pruebas de seguridad con usuarios alfa y beta.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210081"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210090"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210100"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Mantenibilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 7,
+      "principle_name": "Contestabilidad y auditabilidad",
+      "compliance_level": "non_compliant",
+      "evidence": [
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        }
+      ],
+      "recommendations": [
+        "Implementar medidas para cumplir con Contestabilidad y auditabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 8,
+      "principle_name": "Responsabilidad",
+      "compliance_level": "partially_compliant",
+      "evidence": [
+        "Respuesta positiva: Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluacio...",
+        "Respuesta positiva: Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y ali...",
+        "Respuesta negativa: OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado deta...",
+        "Respuesta negativa: La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no...",
+        "Respuesta negativa: No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbo..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿Quién autorizó el desarrollo de este modelo?",
+          "response": "El desarrollo de GPT-4 fue autorizado por la junta directiva de OpenAI y supervisado por un equipo de investigadores líderes en IA con amplia experiencia en modelos de lenguaje grandes.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210072"
+        },
+        {
+          "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+          "response": "Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluaciones de riesgo, análisis de sesgos, y pruebas de seguridad con usuarios alfa y beta.",
+          "category": "Legitimidad y competencia",
+          "timestamp": "2025-04-18 11:43:27.210081"
+        },
+        {
+          "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+          "response": "Los sesgos se identifican mediante evaluaciones sistemáticas en múltiples dimensiones como género, raza, religión y política. Se mitigan a través de técnicas RLHF (aprendizaje por refuerzo con retroalimentación humana) y sistemas de filtrado de contenido inapropiado.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210086"
+        },
+        {
+          "question": "¿Se realizan evaluaciones de impacto regularmente?",
+          "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+          "category": "Minimización de daños",
+          "timestamp": "2025-04-18 11:43:27.210090"
+        },
+        {
+          "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+          "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210094"
+        },
+        {
+          "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+          "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+          "category": "Transparencia",
+          "timestamp": "2025-04-18 11:43:27.210100"
+        },
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbono asociadas con el entrenamiento o la operación de GPT-4.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210105"
+        }
+      ],
+      "recommendations": [
+        "Mejorar aspectos relacionados con Responsabilidad"
+      ],
+      "notes": null
+    },
+    {
+      "principle_id": 9,
+      "principle_name": "Limitación de impactos ambientales",
+      "compliance_level": "non_compliant",
+      "evidence": [
+        "Respuesta negativa: No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbo..."
+      ],
+      "qa_pairs": [
+        {
+          "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+          "response": "No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbono asociadas con el entrenamiento o la operación de GPT-4.",
+          "category": "Limitación de impactos ambientales",
+          "timestamp": "2025-04-18 11:43:27.210105"
+        }
+      ],
+      "recommendations": [
+        "Implementar medidas para cumplir con Limitación de impactos ambientales"
+      ],
+      "notes": null
+    }
+  ],
+  "overall_compliance": "non_compliant",
+  "evaluation_date": "2025-04-18 11:43:27.421538",
+  "evaluator": null,
+  "summary": "El modelo cumple completamente con 2 principios, parcialmente con 4 principios, no cumple con 3 principios, y 0 principios no pudieron ser evaluados."
+}

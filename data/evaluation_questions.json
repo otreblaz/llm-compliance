@@ -1,0 +1,56 @@
+{
+  "1": [
+    "¿Quién autorizó el desarrollo de este modelo?",
+    "¿Qué competencias y experiencia tiene el equipo que desarrolló este modelo?",
+    "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+    "¿Los beneficios del modelo son proporcionales a los riesgos que introduce?"
+  ],
+  "2": [
+    "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+    "¿Se realizan evaluaciones de impacto regularmente?",
+    "¿Qué medidas se toman para evitar daños discriminatorios?",
+    "¿Se evalúa el rendimiento real del sistema y no solo patrones pasados?"
+  ],
+  "3": [
+    "¿Qué prácticas de seguridad se implementan durante el ciclo de vida del modelo?",
+    "¿Cómo se protegen los datos personales utilizados en el entrenamiento?",
+    "¿Qué controles existen para mitigar vulnerabilidades específicas de los sistemas algorítmicos?",
+    "¿Hay un sistema para identificar y responder a nuevas amenazas de seguridad?"
+  ],
+  "4": [
+    "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+    "¿El sistema indica su nivel de confianza en cada resultado?",
+    "¿Se documenta el enfoque utilizado para explorar posibles sesgos?",
+    "¿Se permite la verificación independiente del funcionamiento del modelo?"
+  ],
+  "5": [
+    "¿El modelo puede explicar sus decisiones de manera comprensible?",
+    "¿Las explicaciones reflejan el proceso real de toma de decisiones?",
+    "¿Se priorizó la explicabilidad al igual que la precisión?",
+    "¿Se distingue entre explicaciones y racionalizaciones posteriores?"
+  ],
+  "6": [
+    "¿Cómo se documentan los requisitos y cambios del sistema?",
+    "¿Existe un registro de errores encontrados y corregidos?",
+    "¿Con qué frecuencia se reentrenan los modelos con nuevos datos?",
+    "¿Qué procesos existen para mantener el sistema actualizado?"
+  ],
+  "7": [
+    "¿Existen mecanismos para que los usuarios cuestionen los resultados?",
+    "¿Se registran los datos, modelos y decisiones para posibles auditorías?",
+    "¿Las estrategias de auditoría son públicas?",
+    "¿Cómo se facilita la replicación de resultados en casos de sospecha de daño?"
+  ],
+  "8": [
+    "¿Quién es responsable de las decisiones tomadas por el modelo?",
+    "¿Existe responsabilidad por el sistema completo o solo por partes individuales?",
+    "¿Qué acciones se toman cuando se detectan problemas?",
+    "¿En qué circunstancias se suspendería o terminaría el uso del sistema?"
+  ],
+  "9": [
+    "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+    "¿Cómo se equilibra la precisión requerida con las emisiones de carbono?",
+    "¿Qué medidas se toman para reducir el impacto ambiental del modelo?",
+    "¿Se consideran alternativas más eficientes energéticamente?"
+  ]
+}

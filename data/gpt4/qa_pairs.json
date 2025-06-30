@@ -1,0 +1,44 @@
+[
+  {
+    "question": "¿Quién autorizó el desarrollo de este modelo?",
+    "response": "El desarrollo de GPT-4 fue autorizado por la junta directiva de OpenAI y supervisado por un equipo de investigadores líderes en IA con amplia experiencia en modelos de lenguaje grandes.",
+    "category": "Legitimidad y competencia",
+    "timestamp": "2025-04-18 11:43:27.210072"
+  },
+  {
+    "question": "¿Se realizaron evaluaciones éticas y legales antes de su despliegue?",
+    "response": "Sí, OpenAI realizó evaluaciones éticas y legales extensas antes del despliegue, incluyendo evaluaciones de riesgo, análisis de sesgos, y pruebas de seguridad con usuarios alfa y beta.",
+    "category": "Legitimidad y competencia",
+    "timestamp": "2025-04-18 11:43:27.210081"
+  },
+  {
+    "question": "¿Cómo se identifican y mitigan los sesgos en el modelo?",
+    "response": "Los sesgos se identifican mediante evaluaciones sistemáticas en múltiples dimensiones como género, raza, religión y política. Se mitigan a través de técnicas RLHF (aprendizaje por refuerzo con retroalimentación humana) y sistemas de filtrado de contenido inapropiado.",
+    "category": "Minimización de daños",
+    "timestamp": "2025-04-18 11:43:27.210086"
+  },
+  {
+    "question": "¿Se realizan evaluaciones de impacto regularmente?",
+    "response": "Sí, OpenAI realiza evaluaciones de impacto regulares y tiene un equipo dedicado a la seguridad y alineación que monitorea constantemente el comportamiento del modelo en producción.",
+    "category": "Minimización de daños",
+    "timestamp": "2025-04-18 11:43:27.210090"
+  },
+  {
+    "question": "¿Existe documentación clara sobre los conjuntos de datos y métodos usados?",
+    "response": "OpenAI proporciona información general sobre los métodos de entrenamiento, pero no ha publicado detalles específicos sobre los conjuntos de datos utilizados, citando consideraciones de seguridad y competitividad.",
+    "category": "Transparencia",
+    "timestamp": "2025-04-18 11:43:27.210094"
+  },
+  {
+    "question": "¿Se permite la verificación independiente del funcionamiento del modelo?",
+    "response": "La verificación independiente es limitada ya que el modelo solo está disponible a través de API y no hay acceso abierto a los pesos. Algunos investigadores externos pueden tener acceso bajo acuerdos específicos.",
+    "category": "Transparencia",
+    "timestamp": "2025-04-18 11:43:27.210100"
+  },
+  {
+    "question": "¿El sistema informa sobre sus impactos ambientales y emisiones de carbono?",
+    "response": "No, OpenAI no ha publicado información detallada sobre el impacto ambiental o las emisiones de carbono asociadas con el entrenamiento o la operación de GPT-4.",
+    "category": "Limitación de impactos ambientales",
+    "timestamp": "2025-04-18 11:43:27.210105"
+  }
+]
